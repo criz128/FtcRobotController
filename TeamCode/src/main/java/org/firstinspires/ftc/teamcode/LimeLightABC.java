@@ -36,6 +36,7 @@ public class LimeLightABC extends LinearOpMode {
                     Pose3D botpose = result.getBotpose();
                     telemetry.addData("tx", result.getTx());
                     telemetry.addData("ty", result.getTy());
+                    telemetry.addData("ta", result.getTa());
                     telemetry.addData("Botpose", botpose.toString());
                 }
             }
