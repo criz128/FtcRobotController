@@ -9,7 +9,7 @@ import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
 import org.firstinspires.ftc.robotcore.external.navigation.Pose3D;
 
 @TeleOp(name = "LimeLightABC", group = "Vision")
-public class LimeLightA extends LinearOpMode {
+public class LimeLightABC extends LinearOpMode {
 
     private Limelight3A limelight;
     private static final int LEFT_TAG = 1;
