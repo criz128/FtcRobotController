@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 @TeleOp(name = "LimeLightBallDetection", group = "Vision")
-public class LimeLightBallDetection extends LinearOpMode {
+public class  LimeLightBallDetection extends LinearOpMode {
     private Limelight3A limelight;
 
     @Override
